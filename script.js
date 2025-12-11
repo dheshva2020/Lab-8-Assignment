@@ -4,3 +4,9 @@ const student = {
     age: 20,
     major: "Computer Science"
 };
+//part 2 function to display student info
+function displayStudentInfo(student) {
+    console.log(`Name: ${student.name}`);
+    console.log(`Age: ${student.age}`);
+    console.log(`Major: ${student.major}`);
+}
