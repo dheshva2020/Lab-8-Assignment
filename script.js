@@ -10,3 +10,5 @@ function displayStudentInfo(student) {
     console.log(`Age: ${student.age}`);
     console.log(`Major: ${student.major}`);
 }
+//part 3 invoking the function
+displayStudentInfo(student);
