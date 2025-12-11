@@ -39,3 +39,5 @@ function displayAllStudentsInfo(students) {
     }
     );
 }
+//part 10 invoking the function to display all students
+displayAllStudentsInfo(students);
