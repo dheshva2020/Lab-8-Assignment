@@ -25,3 +25,8 @@ function updateStudentMajor(student, newMajor) {
 //part 7 invoking the update function
 updateStudentMajor(student, "Mathematics");
 displayStudentInfo(student);
+//part 8 array of student objects creation
+const students = [
+    { name: "Alice Smith", age: 22, major: "Biology" },
+    { name: "Bob Johnson", age: 21, major: "History" },
+    { name: "Charlie Brown", age: 23, major: "Physics" }
