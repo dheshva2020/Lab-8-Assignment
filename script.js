@@ -18,3 +18,7 @@ console.log(studentJSON);
 //part 5 JSON string to object conversion
 const parsedStudent = JSON.parse(studentJSON);
 console.log(parsedStudent);
+//part 6 function to update student major
+function updateStudentMajor(student, newMajor) {
+    student.major = newMajor;
+}
