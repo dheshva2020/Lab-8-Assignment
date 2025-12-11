@@ -45,3 +45,8 @@ displayAllStudentsInfo(students);
 function addStudent(students, newStudent) {
     students.push(newStudent);
 }
+/part 12 invoking the function to add a new student
+const newStudent = { name: "Diana Prince", age: 24, major: "Literature" };
+addStudent(students, newStudent);
+displayAllStudentsInfo(students);
+
