@@ -30,3 +30,12 @@ const students = [
     { name: "Alice Smith", age: 22, major: "Biology" },
     { name: "Bob Johnson", age: 21, major: "History" },
     { name: "Charlie Brown", age: 23, major: "Physics" }
+];
+//part 9 function to display all students info
+function displayAllStudentsInfo(students) {
+    students.forEach(student => {
+        displayStudentInfo(student);
+        console.log('---');
+    }
+    );
+}
