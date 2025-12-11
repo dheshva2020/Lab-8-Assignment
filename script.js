@@ -15,3 +15,6 @@ displayStudentInfo(student);
 //part 4 object to JSON string creation
 const studentJSON = JSON.stringify(student);
 console.log(studentJSON);
+//part 5 JSON string to object conversion
+const parsedStudent = JSON.parse(studentJSON);
+console.log(parsedStudent);
