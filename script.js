@@ -41,3 +41,7 @@ function displayAllStudentsInfo(students) {
 }
 //part 10 invoking the function to display all students
 displayAllStudentsInfo(students);
+//part 11 function to add a new student
+function addStudent(students, newStudent) {
+    students.push(newStudent);
+}
