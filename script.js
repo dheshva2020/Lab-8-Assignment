@@ -22,3 +22,6 @@ console.log(parsedStudent);
 function updateStudentMajor(student, newMajor) {
     student.major = newMajor;
 }
+//part 7 invoking the update function
+updateStudentMajor(student, "Mathematics");
+displayStudentInfo(student);
