@@ -12,3 +12,6 @@ function displayStudentInfo(student) {
 }
 //part 3 invoking the function
 displayStudentInfo(student);
+//part 4 object to JSON string creation
+const studentJSON = JSON.stringify(student);
+console.log(studentJSON);
